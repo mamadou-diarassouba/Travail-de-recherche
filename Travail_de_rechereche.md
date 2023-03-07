@@ -1,10 +1,24 @@
-## Mon travail portera sur les exception en Python.  
-
  <p align="center">
   <img src="logo.PNG" />
 </p> 
-<p style="text-align:center"> By Diarassouba Mamadou </p>
-<p style="text-align:center"> Master1 Nov22 </p>
+<center> By Diarassouba Mamadou </center>
+<center> Master1 Nov22 </center>
+
+### Subject: Exception
+
+[`10. Conclusion`](#10-Conclusion)  
+
+## 1. Introduction
+## 2. What is the Exception?
+## 3. Exception handling
+## 4. Raising Exceptions
+## 5. Exception chaining
+## 6. User-defined exceptions
+## 7. Defining Clean-up Actions
+## 8. Enriching Exceptions with Notes
+## 9. The place of exceptions in data analyst 
+## 10. Conclusion  
+
 
 ## 1. Introduction
 
@@ -26,7 +40,7 @@ A short text to illustrate this introduction,
 in this case divide a number by zero
 
 
-![img2](img_Exception1.PNG)
+![img2](images/img_Exception1.PNG)
 
 The last line of the image names the class of the exception and the error message
 this image also gives us the line where the error occurred...
@@ -70,7 +84,7 @@ Therefore, exception management theory in Python is essential for writing reliab
 An except clause can name multiple exceptions as a tuple in parentheses, for example:
 
 
-![img2](img_Exception2.PNG)
+![img2](images/img_Exception2.PNG)
 
 the word pass means that the exception will not be treated
 Exception can be used as a wildcard that catches (almost) everything. However, it is recommended that we be as specific as possible with the types of exceptions we intend to handle and allow any unexpected exceptions to propagate.
@@ -78,21 +92,21 @@ Exception can be used as a wildcard that catches (almost) everything. However, i
 The most common Exception handling model is to print or log the exception and then rethrow it (allowing a caller to also handle the exception).
 
 
-![img3](img_Exception3.PNG)
+![img3](images/img_Exception3.PNG)
 
 We can use else in a try, It is useful for code that needs to be executed if the try clause does not throw an exception. For example:
 
 
-![img4](img_Exception4.PNG)
+![img4](images/img_Exception4.PNG)
 
 If a function is called in a try and this function generates an error
 then this error will be catch  in the try.
 
-![img5](img_Exception5.PNG)
+![img5](images/img_Exception5.PNG)
 
 you should know that all exceptions inherit from the class `BaseException`
 
-![img6](img_Exception6.jpg)
+![img6](images/img_Exception6.jpg)
 
 ## 4. Raising Exceptions
 
@@ -218,7 +232,7 @@ Conclusion:
 
 Python makes it easy to define and use custom exceptions. By defining your own exceptions, you can make your code more readable and easier to debug.
 
-##  Defining Clean-up Actions
+##  7. Defining Clean-up Actions
 
 Clean-up actions refer to the set of instructions that must be executed after completing a specific task or process. These actions are crucial in ensuring that the resources used during the process are freed up and that the system is left in a clean state.
 
@@ -246,25 +260,25 @@ file.close()
 
 In this example, the "file.close()" method is used to release the resources used by the open file. Regardless of whether the "try" block completes successfully or raises an error, the "file.close()" method will always be called to ensure that the file is closed properly.
 
-## 7. Enriching Exceptions with Notes
+## 8. Enriching Exceptions with Notes
 
 
 When an exception is created in order to be raised, it is usually initialized with information that describes the error that has occurred. There are cases where it is useful to add information after the exception was caught. For this purpose, exceptions have a method add_note(note) that accepts a string and adds it to the exception’s notes list. The standard traceback rendering includes all notes, in the order they were added, after the exception.
 
-![img7](img_Exception7.PNG)
+![img7](images/img_Exception7.PNG)
 
 In conclusion, adding notes to exceptions can be very helpful when trying to diagnose and fix errors in our code. We can add notes to the args tuple or create custom exception classes that include note attributes. By doing this, we can provide more context about what was happening when the exception occurred, which can make it easier to track down the root cause of the problem.
 
-## 8. The place of exceptions in data analyst 
+## 9. The place of exceptions in data analyst 
 
 You can't make good functional code without exceptions, they occur
 at all levels of programming. because a code always generates errors
 which can be blocking. for example in data analyst when we load the files
 exceptions must be used.
-![img8](img_Exception8.PNG)
+![img8](images/img_Exception8.PNG)
 
 
-## 9. Conclusion
+##### 10. Conclusion
 Finally, the exceptions are fundamental in programming.  
 It exceptions make the code robust and inform the developer of errors
 giving the cause, the line of the error, the module, the type.
