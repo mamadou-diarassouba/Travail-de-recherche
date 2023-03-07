@@ -17,7 +17,7 @@
 ## 7. Defining Clean-up Actions
 ## 8. Enriching Exceptions with Notes
 ## 9. The place of exceptions in data analyst 
-## 10. Conclusion  
+
 
 
 ## 1. Introduction
