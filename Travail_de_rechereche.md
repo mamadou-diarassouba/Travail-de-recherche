@@ -63,6 +63,7 @@ An except clause can name multiple exceptions as a tuple in parentheses, for exa
 
 
 ![img2](img_Exception2.PNG)
+
 the word pass means that the exception will not be treated
 Exception can be used as a wildcard that catches (almost) everything. However, it is recommended that we be as specific as possible with the types of exceptions we intend to handle and allow any unexpected exceptions to propagate.
 
@@ -70,15 +71,19 @@ The most common Exception handling model is to print or log the exception and th
 
 
 ![img3](img_Exception3.PNG)
+
 We can use else in a try, It is useful for code that needs to be executed if the try clause does not throw an exception. For example:
 
 
 ![img4](img_Exception4.PNG)
+
 If a function is called in a try and this function generates an error
 then this error will be catch  in the try.
+
 ![img5](img_Exception5.PNG)
 
 you should know that all exceptions inherit from the class `BaseException`
+
 ![img6](img_Exception6.jpg)
 
 ## 4. Raising Exceptions
