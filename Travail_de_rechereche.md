@@ -1,9 +1,13 @@
 ## Mon travail portera sur les exception en Python.  
 
-![img2](logo.PNG)
+ <p align="center">
+  <img src="logo.PNG" />
+</p> 
+<p style="text-align:center"> By Diarassouba Mamadou </p>
+<p style="text-align:center"> Master1 Nov22 </p>
 
 ## 1. Introduction
-[link](google.com)  
+
 Software is an organized sequence of logical instructions, this often happens
 that these instructions do not follow the logic (Division of a number by zero), in this case an error will be generated. these errors are called exception.
 In Python, an error can be a syntax error or an exception.
@@ -261,7 +265,11 @@ exceptions must be used.
 
 
 ## 9. Conclusion
+Finally, the exceptions are fundamental in programming.  
+It exceptions make the code robust and inform the developer of errors
+giving the cause, the line of the error, the module, the type.
 
 ## Ressources  
 [w3schools](https://www.w3schools.com/python/python_try_except.asp "w3schools")  
+[insa](https://moodle.insa-rouen.fr/pluginfile.php/140992/mod_resource/content/4/Python-Exceptions.pdf "moodle.insa")
 [insa](https://moodle.insa-rouen.fr/pluginfile.php/140992/mod_resource/content/4/Python-Exceptions.pdf "moodle.insa")
