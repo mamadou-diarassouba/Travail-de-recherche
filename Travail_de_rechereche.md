@@ -1,6 +1,9 @@
-## Mon travail portera sur les exception en Python.
-## 1. Introduction
+## Mon travail portera sur les exception en Python.  
 
+![img2](logo.PNG)
+
+## 1. Introduction
+[link](google.com)  
 Software is an organized sequence of logical instructions, this often happens
 that these instructions do not follow the logic (Division of a number by zero), in this case an error will be generated. these errors are called exception.
 In Python, an error can be a syntax error or an exception.
@@ -25,17 +28,18 @@ The last line of the image names the class of the exception and the error messag
 this image also gives us the line where the error occurred...
 
 ## 3. Exception handling
-Exception management theory in Python revolves around handling unexpected errors or issues that occur during program execution. An exception is an event that disrupts the normal flow of a program, causing it to terminate immediately.
+
+**Exception** management theory in Python revolves around handling unexpected errors or issues that occur during program execution. An exception is an event that disrupts the normal flow of a program, causing it to terminate immediately.
 
 Python provides various built-in exceptions like TypeError, ValueError, NameError, IndexError, and so on which are raised when a program encounters an error.
 
 The main objective of exception handling is to make the program more robust and ensure that it doesn't crash in the event of an error. Exception handling involves three main components:
 
-1. Try: It is a block of code where you place the code that might raise an exception.
++ **Try**: It is a block of code where you place the code that might raise an exception.
 
-2. Except: It is a block of code where you handle the exception raised in a try block.
++ **Except**: It is a block of code where you handle the exception raised in a try block.
 
-3. Finally: This block contains code that is executed irrespective of whether an exception occurs or not.
++ **Finally**: This block contains code that is executed irrespective of whether an exception occurs or not.
 
 Here is an example of how exception handling works in Python:
 
@@ -87,6 +91,7 @@ you should know that all exceptions inherit from the class `BaseException`
 ![img6](img_Exception6.jpg)
 
 ## 4. Raising Exceptions
+
 In Python, exceptions are raised when there is an error or an unusual event occurs during the execution of a program. These exceptions can be raised explicitly by the programmer using the keyword "raise".
 
 Syntax:
@@ -257,6 +262,6 @@ exceptions must be used.
 
 ## 9. Conclusion
 
-## Ressources
-https://www.w3schools.com/python/python_try_except.asp
-https://moodle.insa-rouen.fr/pluginfile.php/140992/mod_resource/content/4/Python-Exceptions.pdf
+## Ressources  
+[w3schools](https://www.w3schools.com/python/python_try_except.asp "w3schools")  
+[insa](https://moodle.insa-rouen.fr/pluginfile.php/140992/mod_resource/content/4/Python-Exceptions.pdf "moodle.insa")
