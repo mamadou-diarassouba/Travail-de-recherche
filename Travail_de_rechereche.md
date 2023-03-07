@@ -1,7 +1,7 @@
  <p align="center">
-  <img src="logo.PNG" />
-</p> 
-<center> By Diarassouba Mamadou </center>
+  <img src="images/logo.PNG"/>
+</p>
+<center> By Diarassouba Mamadou </center>  
 <center> Master1 Nov22 </center>
 
 ### Subject: Exception
