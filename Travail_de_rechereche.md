@@ -6,17 +6,19 @@
 
 ### Subject: Exception
 
-[`10. Conclusion`](#10-Conclusion)  
+## Content
 
 ## 1. Introduction
-## 2. What is the Exception?
-## 3. Exception handling
-## 4. Raising Exceptions
-## 5. Exception chaining
-## 6. User-defined exceptions
-## 7. Defining Clean-up Actions
-## 8. Enriching Exceptions with Notes
-## 9. The place of exceptions in data analyst 
+## [`1. Introduction`](#1-Introduction)
+## [`2. What is the Exception?`](#2-What-is-the-Exception?)
+## [`3. Exception handling`](#3-Exception-handling)
+## [`4. Raising Exceptions`](#4-Raising-Exceptions)
+## [`5. Exception chaining`](#5-Exception-chaining)
+## [`6. User-defined exceptions`](#6-User-defined-exceptions)
+## [`7. Defining Clean-up Actions`](#7-Defining-Clean-up-Actions)
+## [`8. Enriching Exceptions with Notes`](#8-Enriching-Exceptions-with-Notes)
+## [`9. The place of exceptions in data analyst`](#9-The-place-of-exceptions-in-data-analyst)
+## [`10. Conclusion`](#10-Conclusion)
 
 
 
@@ -278,7 +280,7 @@ exceptions must be used.
 ![img8](images/img_Exception8.PNG)
 
 
-##### 10. Conclusion
+## 10. Conclusion
 Finally, the exceptions are fundamental in programming.  
 It exceptions make the code robust and inform the developer of errors
 giving the cause, the line of the error, the module, the type.
