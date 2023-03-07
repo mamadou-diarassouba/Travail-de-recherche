@@ -8,7 +8,6 @@
 
 ## Content
 
-## 1. Introduction
 ## [`1. Introduction`](#1-Introduction)
 ## [`2. What is the Exception?`](#2-What-is-the-Exception?)
 ## [`3. Exception handling`](#3-Exception-handling)
